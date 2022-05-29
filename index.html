@@ -20,12 +20,28 @@
   </head>
 
   <body>
-    <!--Nav bar heading-->
+
     <div class="navbar bg-info text-center">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 h1">Weather Forecast Dashboard</span>
       </div>
     </div>
+  <!-- search history  div-->
+  <div class="search-bar col-12 col-md-3 border p-2 mb-3">
+    <h2 class="search-text">Enter chosen city:</h2>
+
+    <form class="form-inline active-cyan-4" id="search-form">
+      <input
+        id="city-input"
+        class="form-control col-12 p-2 my-2"
+        type="search"
+        placeholder="Enter city here"
+        aria-label="Search"
+      />
+      <button class="searchBtn">Search</button>
+    </form>
+
+    <hr />
 
     <main>
       <div class="row gx-0 p-3">
