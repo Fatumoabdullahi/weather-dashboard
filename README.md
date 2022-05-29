@@ -28,4 +28,4 @@ THEN I am again presented with current and future conditions for that city
 
 ## Link
 
-Click <a href="">here</a> to view deployed link.
+Click <a href="https://fatumoabdullahi.github.io/weather-dashboard/">here</a> to view deployed link.
