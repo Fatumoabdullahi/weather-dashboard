@@ -195,7 +195,7 @@ const handleReady = function () {
   // cities
   const cities = JSON.parse(localStorage.getItem("recentCities")) ?? [];
 
-  // if there are recent cities get the info for the most recent city
+  // collect info for most recent search
   if (cities.length) {
     const cityName = cities[cities.length - 1];
     renderWeatherInfo(cityName);
