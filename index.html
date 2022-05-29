@@ -28,7 +28,7 @@
     </div>
   <!-- search history  div-->
   <div class="search-bar col-12 col-md-3 border p-2 mb-3">
-    <h2 class="search-text">Enter chosen city:</h2>
+    <h2 class="search-text">City Name:</h2>
 
     <form class="form-inline active-cyan-4" id="search-form">
       <input
@@ -41,18 +41,32 @@
       <button class="searchBtn">Search</button>
     </form>
 
-    <hr />
-
     <main>
       <div class="row gx-0 p-3">
       
+    <!--city searched lists here-->
+    <ul class="col-12 list-group" id="city-list"></ul>
+</div>
+
+  <!-- Column for cards -->
+  <div class="cards col-12 col-md-9 border p-2 mb-3">
+    <div class="d-flex flex-column" id="weather-cards-container"></div>
+  </div>
+</div>
+
+<div class="cards col-12 col-md-9 border p-2 mb-3">
+  <div class="d-flex flex-column" id="weather-cards-container"></div>
+</div>
+</div>
+</main>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
       integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
+    >
+</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
